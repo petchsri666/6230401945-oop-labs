@@ -7,6 +7,9 @@ class Numbers:
     def add(self):
         return self.x + self.y
 
+    def display(self):
+        return self.x, self.y
+
     @classmethod
     def get_factors(cls, x):
         cls.x = x
@@ -35,3 +38,4 @@ if __name__ == '__main__':
     print(Numbers.display_factors(8))
     print(Numbers.is_valid_divisor(2))
     print(Numbers.is_valid_divisor(0))
+    print(Numbers(3, 5).display())

@@ -49,7 +49,7 @@ class Sample3(QMainWindow):
         self.setCentralWidget(self.edit)
 
         self.setLayout(self.fbox)
-        self.resize(300, 200)
+        self.resize(550, 450)
         self.setWindowTitle("File dialog")
         self.show()
 
